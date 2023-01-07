@@ -7,10 +7,12 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Welcome to Flora's Homepage
+      title: Hugo Academic Theme
+      image:
+        filename: hero-academic.png
       cta:
-        label: **Star for me**
-        url: https://wowchemy.com/templates/
+        label: '**Star for me**'
+        url: https://github.com/liyueying233/flora-academic-homepage/
       cta_alt:
         label: Ask a question
         url: https://discord.gg/z8wNYzb
@@ -18,8 +20,9 @@ sections:
         label: >-
           <div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-themes" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Wowchemy Website Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/starter-hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
       text: |-
-         **Now you can get a quick overview of my academic experience**
-  
+        
+        **Now you can get a quick overview of my academic experience.**
+
         <!--Custom spacing-->
         <div class="mb-3"></div>
         <!--GitHub Button JS-->
