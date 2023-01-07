@@ -14,6 +14,9 @@ sections:
       cta_alt:
         label: Ask a question
         url: https://discord.gg/z8wNYzb
+      cta_note:
+        label: >-
+          <div style="text-shadow: none;"><a class="github-button" href="https://github.com/liyueying233/flora-academic-homepage" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Wowchemy Website Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/liyueying233/flora-academic-homepage" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
       text: |-
          **Now you can get a quick overview of my academic experience**
   
