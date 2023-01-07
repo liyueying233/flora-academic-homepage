@@ -9,7 +9,7 @@ sections:
     content:
       title: Welcome to Flora's Homepage
       cta:
-        label: '**Star for me**'
+        label: **Star for me**
         url: https://wowchemy.com/templates/
       cta_alt:
         label: Ask a question
