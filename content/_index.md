@@ -5,7 +5,7 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
+    - block: hero
     content:
       title: Welcome to Flora's Homepage
       image:
@@ -42,16 +42,16 @@ sections:
     content:
       title: Skills
       items:
-        - name: Progamming
+        - name: R
           description: 90%
           icon: r-project
           icon_pack: fab
-        - name: Distributed Data
-          description: 80%
+        - name: Statistics
+          description: 100%
           icon: chart-line
           icon_pack: fas
-        - name: Mathematics
-          description: 80%
+        - name: Photography
+          description: 10%
           icon: camera-retro
           icon_pack: fas
   - block: experience
@@ -65,7 +65,7 @@ sections:
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-    items:
+      items:
         - title: CEO
           company: GenCoin
           company_url: ''
