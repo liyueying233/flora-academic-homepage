@@ -69,7 +69,7 @@ sections:
         - title: Bachelor student
           company: Jinan University
           company_url: ''
-          company_logo: org-jnu
+          company_logo: org-gc
           location: Guangdong,China
           date_start: '2019-09'
           date_end: '2023-06'
@@ -81,7 +81,7 @@ sections:
         - title: Master student
           company: Zhejiang University
           company_url: ''
-          company_logo: org-zju
+          company_logo: org-x
           location: Zhejiang,China
           date_start: '2023-09'
           date_end: '2025-12'
