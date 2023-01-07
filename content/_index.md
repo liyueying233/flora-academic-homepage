@@ -67,26 +67,25 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Bachelor student
-          company: GenCoin
+          company: Jinan University
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+          company_logo: org-jnu
+          location: Guangdong,China
+          date_start: '2019-09'
+          date_end: '2023-06'
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
+              * As the team member of multiple scientific and technological innovation projects
+              * The Bachelor student in Spatial Information Technology Lab
         - title: Master student
-          company: University X
+          company: Zhejiang University
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: org-zju
+          location: Zhejiang,China
+          date_start: '2023-09'
+          date_end: '2025-12'
+          description: The Bachelor student in Spatial Information Technology Lab.
     design:
       columns: '2'
   - block: accomplishments
