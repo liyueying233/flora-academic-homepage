@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Flora Li 李玥颖
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Flora
+last_name: Li
 
 # Status emoji
 status:
@@ -14,15 +14,15 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Master of Distributed Computing
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Zhejiang University
+    url: https://www.zju.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include distributed partition of stream data and online learning of distributeed data.
 
 # Interests to show in About widget
 interests:
@@ -62,7 +62,7 @@ social:
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/liyueying233
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/
@@ -74,11 +74,11 @@ social:
     link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'liyueying0001@163.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Master student of Distributed Computing at the ZJU Daily Lab. My research interests include distributed partition of stream data,data computing frame and online learning of distributed data. Researches during the master's period contributes to the improvement of the programming skills, distributed data knowledge and system architecture capabilitied. I am sincerely seeking for academic cooperation and intership oppotunities in distributed data area. Looking forward to contacting you.
 {style="text-align: justify;"}
