@@ -69,7 +69,7 @@ sections:
         - title: Bachelor
           company: Jinan University
           company_url: ''
-          company_logo: org-gc
+          company_logo: org-jn
           location: Guangdong
           date_start: '2019-09-01'
           date_end: '2023-06-30'
@@ -77,8 +77,7 @@ sections:
               Research Experience include:
 
               * Bachelor student of Image Processing Lab
-              * Multiple Competitions 
-              * Deploying
+              * Multiple Competitions
         - title: Master
           company: Zhejiang University
           company_url: ''
