@@ -74,7 +74,7 @@ sections:
           date_start: '2019-09-01'
           date_end: '2023-06-30'
           description: |2-
-              Responsibilities include:
+              Research Experience include:
 
               * Analysing
               * Modelling
@@ -84,8 +84,8 @@ sections:
           company_url: ''
           company_logo: org-x
           location: Zhejiang
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
+          date_start: '2023-09-01'
+          date_end: '2025-12-31'
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
