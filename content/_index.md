@@ -42,16 +42,16 @@ sections:
     content:
       title: Skills
       items:
-        - name: R
+        - name: Progamming
           description: 90%
           icon: r-project
           icon_pack: fab
-        - name: Statistics
-          description: 100%
+        - name: Distributed Data
+          description: 80%
           icon: chart-line
           icon_pack: fas
-        - name: Photography
-          description: 10%
+        - name: Mathematics
+          description: 80%
           icon: camera-retro
           icon_pack: fas
   - block: experience
@@ -66,7 +66,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
+        - title: Bachelor student
           company: GenCoin
           company_url: ''
           company_logo: org-gc
@@ -79,7 +79,7 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
+        - title: Master student
           company: University X
           company_url: ''
           company_logo: org-x
