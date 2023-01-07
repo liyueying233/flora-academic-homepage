@@ -72,7 +72,7 @@ sections:
           company_logo: org-gc
           location: Guangdong
           date_start: '2019-09-01'
-          date_end: ''
+          date_end: '2023-06-30'
           description: |2-
               Responsibilities include:
 
