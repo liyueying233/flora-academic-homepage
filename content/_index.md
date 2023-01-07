@@ -5,6 +5,36 @@ date: 2022-10-24
 type: landing
 
 sections:
+  - block: hero
+    content:
+      title: Hugo Academic Theme
+      image:
+        filename: hero-academic.png
+      cta:
+        label: '**Get Started**'
+        url: https://wowchemy.com/templates/
+      cta_alt:
+        label: Ask a question
+        url: https://discord.gg/z8wNYzb
+      cta_note:
+        label: >-
+          <div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-themes" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Wowchemy Website Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/starter-hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
+      text: |-
+        **ed open source website builder trusted by 500,000+ sites.**
+
+        **Easily build anything with blocks - no-code required!**
+
+        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
+
+        <!--Custom spacing-->
+        <div class="mb-3"></div>
+        <!--GitHub Button JS-->
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+    design:
+      background:
+        gradient_end: '#1976d2'
+        gradient_start: '#004ba0'
+        text_color_light: true
   - block: about.avatar
     id: about
     content:
@@ -16,16 +46,16 @@ sections:
     content:
       title: Skills
       items:
-        - name: Programming
+        - name: R
           description: 90%
           icon: r-project
           icon_pack: fab
-        - name: Distributed Frame
-          description: 80%
+        - name: Statistics
+          description: 100%
           icon: chart-line
           icon_pack: fas
-        - name: Basic Mathematics
-          description: 50%
+        - name: Photography
+          description: 10%
           icon: camera-retro
           icon_pack: fas
   - block: experience
@@ -40,29 +70,27 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Bachelor
-          company: Jinan University
+        - title: CEO
+          company: GenCoin
           company_url: ''
           company_logo: org-gc
-          location: Guangdong, China
-          date_start: '2019-09'
-          date_end: '2023-06'
+          location: California
+          date_start: '2021-01-01'
+          date_end: ''
           description: |2-
-              Reserch experience include:
+              Responsibilities include:
 
-              * The Bachelor student of Spatial Information Technology Lab.
-              * The team member of multiple scientific and technological innovation projects in deep learning.
-        - title: Master
-          company: Zhejiang University
+              * Analysing
+              * Modelling
+              * Deploying
+        - title: Professor of Semiconductor Physics
+          company: University X
           company_url: ''
           company_logo: org-x
-          location: Zhejiang, China
-          date_start: '2023-07'
-          date_end: '2025-12'
-          description: |2-
-              Reserch experience include:
-
-              * The Master student of Daily Lab.
+          location: California
+          date_start: '2016-01-01'
+          date_end: '2020-12-31'
+          description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
   - block: accomplishments
@@ -158,6 +186,14 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+  - block: markdown
+    content:
+      title: Gallery
+      subtitle: ''
+      text: |-
+        {{< gallery album="demo" >}}
+    design:
+      columns: '1'
   - block: collection
     id: featured
     content:
@@ -170,6 +206,20 @@ sections:
       columns: '2'
       view: card
   - block: collection
+    content:
+      title: Recent Publications
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
+  - block: collection
     id: talks
     content:
       title: Recent & Upcoming Talks
@@ -181,7 +231,7 @@ sections:
       view: compact
   - block: tag_cloud
     content:
-      title: Work Experience
+      title: Popular Topics
     design:
       columns: '2'
   - block: contact
@@ -192,20 +242,20 @@ sections:
       text: |-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: liyueying0001@163.com
-      phone: 15823833306
+      email: test@example.org
+      phone: 888 888 88 88
       appointment_url: 'https://calendly.com'
       address:
         street: 450 Serra Mall
-        city: Guangzhou
-        region: Guangdong
-        postcode: '511436'
-        country: China
-        country_code: PRC
+        city: Stanford
+        region: CA
+        postcode: '94305'
+        country: United States
+        country_code: US
       directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       office_hours:
-        - 'Monday 09:30 to 10:30'
-        - 'Wednesday 09:30 to 10:30'
+        - 'Monday 10:00 to 13:00'
+        - 'Wednesday 09:00 to 10:00'
       contact_links:
         - icon: twitter
           icon_pack: fab
