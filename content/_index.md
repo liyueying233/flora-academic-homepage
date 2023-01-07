@@ -76,8 +76,8 @@ sections:
           description: |2-
               Research Experience include:
 
-              * Bachelor
-              * Modelling
+              * Bachelor student of Image Processing Lab
+              * Multiple Competitions 
               * Deploying
         - title: Master
           company: Zhejiang University
