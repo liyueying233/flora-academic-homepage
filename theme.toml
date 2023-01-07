@@ -1,8 +1,8 @@
-name = "Academic"
+name = "Flora Li"
 license = "MIT"
-licenselink = "https://github.com/wowchemy/starter-hugo-academic/blob/master/LICENSE.md"
+licenselink = "https://github.com/liyueying233/flora-academic-homepage/blob/master/LICENSE.md"
 description = "Use the website builder to easily build your site with 50+ widgets and deploy with one click! Fully customize your site with themes, plugins, and language packs."
-homepage = "https://github.com/wowchemy/starter-hugo-academic/"
+homepage = "https://github.com/liyueying233/flora-academic-homepage/"
 demosite = "https://wowchemy.com/hugo-themes/"
 tags = ["widgets",
         "resume",
