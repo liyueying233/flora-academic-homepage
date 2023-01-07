@@ -158,14 +158,6 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
   - block: collection
     id: featured
     content:
@@ -178,20 +170,6 @@ sections:
       columns: '2'
       view: card
   - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
     id: talks
     content:
       title: Recent & Upcoming Talks
@@ -203,7 +181,7 @@ sections:
       view: compact
   - block: tag_cloud
     content:
-      title: Popular Topics
+      title: Work Experience
     design:
       columns: '2'
   - block: contact
@@ -214,20 +192,20 @@ sections:
       text: |-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
+      email: liyueying0001@163.com
+      phone: 15823833306
       appointment_url: 'https://calendly.com'
       address:
         street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
+        city: Guangzhou
+        region: Guangdong
+        postcode: '511436'
+        country: China
+        country_code: PRC
       directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        - 'Monday 09:30 to 10:30'
+        - 'Wednesday 09:30 to 10:30'
       contact_links:
         - icon: twitter
           icon_pack: fab
