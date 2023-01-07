@@ -76,7 +76,7 @@ sections:
           description: |2-
               Research Experience include:
 
-              * Analysing
+              * Bachelor
               * Modelling
               * Deploying
         - title: Master
@@ -86,7 +86,7 @@ sections:
           location: Zhejiang
           date_start: '2023-09-01'
           date_end: '2025-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          description: Master student of Daily Lab in Distributed Computing.
     design:
       columns: '2'
   - block: accomplishments
